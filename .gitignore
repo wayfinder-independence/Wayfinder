@@ -13,3 +13,12 @@ Thumbs.db
 
 # Environment files
 .env
+
+# Python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Privacy: guard against accidentally committing a real schedule
+*.docx
